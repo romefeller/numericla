@@ -38,6 +38,6 @@ executable numericla
                       cassava,
                       hmatrix,
                       hmatrix-csv,
-                      easyplot
+                      gnuplot
     hs-source-dirs:   app
     default-language: Haskell2010

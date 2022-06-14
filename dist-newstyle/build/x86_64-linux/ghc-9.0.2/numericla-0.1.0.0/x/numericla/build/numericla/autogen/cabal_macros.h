@@ -40,16 +40,16 @@
   (major1) == 0 && (major2) <  5 || \
   (major1) == 0 && (major2) == 5 && (minor) <= 2)
 #endif /* MIN_VERSION_cassava */
-/* package easyplot-1.0 */
-#ifndef VERSION_easyplot
-#define VERSION_easyplot "1.0"
-#endif /* VERSION_easyplot */
-#ifndef MIN_VERSION_easyplot
-#define MIN_VERSION_easyplot(major1,major2,minor) (\
-  (major1) <  1 || \
-  (major1) == 1 && (major2) <  0 || \
-  (major1) == 1 && (major2) == 0 && (minor) <= 0)
-#endif /* MIN_VERSION_easyplot */
+/* package gnuplot-0.5.7 */
+#ifndef VERSION_gnuplot
+#define VERSION_gnuplot "0.5.7"
+#endif /* VERSION_gnuplot */
+#ifndef MIN_VERSION_gnuplot
+#define MIN_VERSION_gnuplot(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  5 || \
+  (major1) == 0 && (major2) == 5 && (minor) <= 7)
+#endif /* MIN_VERSION_gnuplot */
 /* package hmatrix-0.20.2 */
 #ifndef VERSION_hmatrix
 #define VERSION_hmatrix "0.20.2"
